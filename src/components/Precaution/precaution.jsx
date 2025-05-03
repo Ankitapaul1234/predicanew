@@ -149,7 +149,7 @@ const Precaution = () => {
               style={{ width: "600px", height: "auto", margin: "20px auto" }}
             >
               <img
-                src="src/img/precaution.jpg"
+                src="/precaution.jpg"
                 alt="Breast Cancer Awareness"
                 className={`${styles.image} ${styles.animatedImage}`}
               />
@@ -207,7 +207,7 @@ const Precaution = () => {
                         style={{ width: "600px", height: "auto", margin: "20px auto" }}
                       >
                         <img
-                          src="src/img/doctor.jpg"
+                          src="/doctor.jpg"
                           alt="doctor for Breast Cancer"
                           className={`${styles.image} ${styles.animatedImage}`}
                         />

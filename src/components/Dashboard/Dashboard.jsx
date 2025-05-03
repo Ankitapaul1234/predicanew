@@ -516,7 +516,7 @@ const Dashboard = () => {
        {/* Image Section */}
        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '40px' }}>
          <img 
-           src="src/img/dashpre.jpg" 
+           src="/dashpre.jpg" 
            alt="Dashboard Illustration" 
            className="animatedImage" 
            style={{ width: '100%', maxWidth: '800px', height: 'auto', objectFit: 'contain', borderRadius: '12px' }}

@@ -108,7 +108,7 @@ const About = () => {
                         style={{ width: "600px", height: "auto", margin: "20px auto" }}
                       >
                         <img
-                          src="src/img/ai.jpg"
+                          src="/ai.jpg"
                           alt="Breast Cancer Awareness"
                           className={`${styles.image} ${styles.animatedImage}`}
                         />
