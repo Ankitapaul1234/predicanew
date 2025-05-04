@@ -544,7 +544,8 @@ const Dashboard = () => {
       {/* Logout Section */}
       <p>Click below to navigate to the home page:</p>
       <button
-        onClick={handleLogout}
+        //onClick={handleLogout}
+        onClick={() => navigate('/')} 
         style={{
           backgroundColor: "#d81b60",
           color: "white",
@@ -555,7 +556,7 @@ const Dashboard = () => {
           marginBottom: "20px",
         }}
       >
-        Logout
+         Go to Home Page
       </button>
 
       <p>© 2024 Predica. All rights reserved.</p>
