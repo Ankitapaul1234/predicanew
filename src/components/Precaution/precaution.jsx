@@ -217,12 +217,12 @@ const Precaution = () => {
             <br />
 
             <ul>
-              <li>Surgery (Lumpectomy, Mastectomy, Skin-Sparing or Nipple-Sparing Mastectomy)</li>
-              <li>Radiation Therapy</li>
-              <li>Chemotherapy</li>
-              <li>Hormone Therapy</li>
-              <li>Targeted Therapy</li>
-              <li>Immunotherapy</li>
+              <li>Surgery – Removal of cancerous tissue, either through lumpectomy or mastectomy.</li>
+              <li>Radiation Therapy – Uses high-energy rays to kill remaining cancer cells.</li>
+              <li>Chemotherapy – Involves drugs that destroy or slow the growth of cancer cells.</li>
+              <li>Hormone Therapy  – Blocks hormones like estrogen that fuel certain breast cancers.</li>
+              <li>Targeted Therapy – Uses drugs to target specific molecules involved in cancer growth.</li>
+              <li>Immunotherapy  – Boosts the body’s immune system to fight cancer.</li>
             </ul>
 
             <br />
