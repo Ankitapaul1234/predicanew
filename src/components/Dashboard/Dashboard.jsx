@@ -292,6 +292,9 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Navbar from "../navbar/Navbar";
+// import styles from "../precaution/styles.module.css";
+
+
 
 const questions = [
   {
@@ -390,7 +393,7 @@ const Dashboard = () => {
       <Navbar />
 
       {/* Why Prediction is Important Section */}
-      <section style={{ marginTop: "40px" }}>
+      <section style={{ marginTop: "65px" }}>
         <h2 style={{ color: "#d81b60" }}>Why Prediction is Important</h2>
         <p>
           AI-powered prediction systems analyze health data to detect early signs of breast cancer, helping in early diagnosis which enhances treatment options and significantly improves survival rates. By identifying risks at an early stage, these systems provide personalized insights and recommend preventive measures. Using prediction technology can lead to timely intervention, reducing treatment complexities, minimizing healthcare costs, and ensuring better long-term health outcomes.
@@ -541,6 +544,74 @@ const Dashboard = () => {
 
  <br />
 
+
+
+ {/* Self Examination Section */}
+<section style={{ marginTop: "40px" }}>
+  <h2 style={{ color: "#e91e63", fontSize: "20px" }}>Process of Self Examination</h2>
+  <div style={{ fontSize: "14px" }}>
+    <div style={{ marginBottom: "20px", backgroundColor: "#1e1e1e", padding: "15px", borderRadius: "8px" }}>
+      <h3 style={{ color: "#f06292" }}>Step 1: Look in the Mirror</h3>
+      <p>Check for visible changes in shape, size, or skin texture of your breasts.</p>
+    </div>
+
+    <div style={{ marginBottom: "20px", backgroundColor: "#1e1e1e", padding: "15px", borderRadius: "8px" }}>
+      <h3 style={{ color: "#f06292" }}>Step 2: Raise Your Arms</h3>
+      <p>Look for any changes in shape or size when raising your arms above your head.</p>
+    </div>
+
+    <div style={{ marginBottom: "20px", backgroundColor: "#1e1e1e", padding: "15px", borderRadius: "8px" }}>
+      <h3 style={{ color: "#f06292" }}>Step 3: Check for Discharge</h3>
+      <p>Gently squeeze each nipple to check for any unusual discharge.</p>
+    </div>
+
+    <div style={{ marginBottom: "20px", backgroundColor: "#1e1e1e", padding: "15px", borderRadius: "8px" }}>
+      <h3 style={{ color: "#f06292" }}>Step 4: Feel for Lumps Lying Down</h3>
+      <p>Feel your breast in a circular motion to detect any lumps or thickening.</p>
+    </div>
+
+    <div style={{ marginBottom: "20px", backgroundColor: "#1e1e1e", padding: "15px", borderRadius: "8px" }}>
+      <h3 style={{ color: "#f06292" }}>Step 5: Feel for Lumps Standing or Sitting</h3>
+      <p>Repeat the process while standing or sitting, checking all areas, including underarms.</p>
+    </div>
+  </div>
+
+
+
+   {/* Embedded YouTube Video */}
+   <div className="videoWrapper" style={{ marginTop: "30px" }}>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/u-LzRJQJn3Q"
+      title="Extra Tips for Breast Cancer Prevention"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowFullScreen
+    ></iframe>
+  </div>
+
+  {/* Clickable Link to the Video */}
+  <p style={{ textAlign: "center", marginTop: "15px" }}>
+    <a 
+      href="https://www.youtube.com/watch?v=u-LzRJQJn3Q" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      style={{ color: "#d81b60", textDecoration: "underline" }}
+    >
+      Click here to visualize the self-examination in a 3D video.
+    </a>
+  </p>
+</section>
+
+
+
+
+
+
+
+
+
       {/* Logout Section */}
       <p>Click below to navigate to the home page:</p>
       <button
@@ -565,6 +636,16 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+
+
+
+
+
+
+
+
+
+
 
 
 

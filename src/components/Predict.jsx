@@ -191,7 +191,7 @@ export default function Predict() {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    height: '100vh', // Vertically center content
+    height: '110vh', // Vertically center content
     padding: '2rem',
     backgroundColor: '#121212', // Dark background
     color: 'white', // Light text for dark theme
@@ -318,7 +318,11 @@ export default function Predict() {
         </motion.div>
       )}
 
+<br/>
+<br/>
       <p>Click below to navigate to the home page:</p>
+       
+
       <button 
         onClick={() => navigate('/')} 
         style={goHomeButtonStyle}
