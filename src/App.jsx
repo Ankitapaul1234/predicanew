@@ -174,6 +174,7 @@ import AboutPredict from "./components/About/about";
 import Contact from "./components/Contact/contact";
 import HospitalSearch from "./components/HospitalSearch";
 import DrAi from "./components/chatbot/DrAi";
+import Todo from "./components/todo";
 
 import './App.css';
 
@@ -193,6 +194,7 @@ function App() {
         <Route path="/drai" element={<DrAi />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/hospitals" element={<HospitalSearch />} />
+        <Route path="/todo" element={<Todo />} />
       </Routes>
     </Router>
   );

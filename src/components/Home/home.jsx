@@ -149,7 +149,7 @@ const Home = () => {
                   <h3>Awareness</h3>
                   <p className={styles.featureDescription}>
                     Comprehensive information on breast cancer symptoms, risk
-                    factors, and the latest treatment options.
+                    factors, and the latest treatment options and Track Your Progress.
                   </p>
                 </div>
 

@@ -330,6 +330,7 @@ const Navbar = () => {
               <Link to="/about-predict" className={styles.dropdownItem}>About Predict</Link>
               <Link to="/precaution" className={styles.dropdownItem}>Precaution</Link>
               <Link to="/drai" className={styles.dropdownItem}>AI Assistant</Link>
+              <Link to="/todo" className={styles.dropdownItem}>Tracker</Link>
             </div>
           )}
         </div>
