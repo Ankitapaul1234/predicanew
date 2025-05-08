@@ -28,12 +28,47 @@
 } */
 
 
+ 
+
+
+
+/* DrAi.css */
+
+/* .chat-wrapper {
+  position: relative;
+  height: 90vh;
+  max-width: 900px;
+   margin: 20px auto; 
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #f7fafd;
+  
+} */
+
+
+
+
+/* @keyframes glowAnimation {
+  0% {
+    box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  }
+  50% {
+    box-shadow: 0 0 10px #00aaff, 0 0 20px #00aaff, 0 0 30px #00aaff;
+  }
+  100% {
+    box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  }
+} */
+
+
 @keyframes glowAnimation {
   0% {
     box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
   }
   50% {
     box-shadow: 0 0 8px #66ccff, 0 0 15px #66ccff, 0 0 24px #66ccff; /* Lighter blue */
+    
   }
   100% {
     box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
@@ -169,7 +204,6 @@
     max-width: 300px;
   }
 }
-
 
 
 
