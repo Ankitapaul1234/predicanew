@@ -169,8 +169,20 @@ function Todo() {
     };
 
     return (
-        <div className="todo-container">
-            <h2 className="todo-title">✅ Track Your Progress</h2>
+        <div className="todo-container"
+        style={{
+            maxWidth: "600px",
+            margin: "40px auto",
+            padding: "20px",
+            backgroundColor: "#1e1e1e", // dark background
+            color: "#f5f5f5", // light text
+            borderRadius: "10px",
+            boxShadow: "0 4px 10px rgba(0, 0, 0, 0.5)", // deeper shadow
+            fontFamily: "Arial, sans-serif"
+        }}
+        
+        >
+            <h2 className="todo-title">📈 Track Your Progress</h2>
             <Create refreshTasks={fetchTasks} />
             {todos.length === 0 ? (
                 <div className="no-tasks">No Records Found 🚀</div>

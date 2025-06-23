@@ -25,6 +25,14 @@ const Create = ({ refreshTasks }) => {
                 placeholder="Enter task..."
                 value={task}  
                 onChange={(e) => setTask(e.target.value)} 
+                style={{
+                    padding: "10px",
+                    fontSize: "16px",
+                    border: "1px solid #ccc",
+                    borderRadius: "5px",
+                    width: "250px",
+                    marginRight: "10px"
+                }}
             />
             <button type="button" className="create-form-button" onClick={handleAdd}>
                 Add

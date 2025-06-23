@@ -156,7 +156,7 @@ const Home = () => {
                 <div className={styles.featureBox}>
                   <h3>Precaution</h3>
                   <p className={styles.featureDescription}>
-                  Stay proactive in your health journey with guided exercise videos, precautionary tips, expert-backed diet advice and Track Your Progress.
+                  Stay proactive in your health journey with guided exercise videos, precautionary tips and expert-backed diet advice.
                   </p>
                 </div>
 
