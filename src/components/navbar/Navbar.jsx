@@ -297,6 +297,7 @@ import { Link } from "react-router-dom";
 import styles from "./styles.module.css";
 import { useAuth0 } from "@auth0/auth0-react";
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -304,6 +305,9 @@ const Navbar = () => {
 
   const toggleMenu = () => setIsOpen(!isOpen);
   const toggleDropdown = () => setIsDropdownOpen(!isDropdownOpen);
+
+
+ 
 
   return (
     <nav className={styles.navbar}>
@@ -330,6 +334,7 @@ const Navbar = () => {
               <Link to="/about-predict" className={styles.dropdownItem}>About Predict</Link>
               <Link to="/precaution" className={styles.dropdownItem}>Precaution</Link>
               <Link to="/drai" className={styles.dropdownItem}>AI Assistant</Link>
+
               
             </div>
           )}

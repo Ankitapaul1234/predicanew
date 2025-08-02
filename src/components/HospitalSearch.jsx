@@ -168,7 +168,7 @@ const HospitalLocator = () => {
       </div>
       <br />
 
-<p>Click below to navigate to the home page:</p>
+<p>Click below to navigate to the home page::</p>
 
 {/* Buttons for Navigation with Inline Styling */}
 <button 
