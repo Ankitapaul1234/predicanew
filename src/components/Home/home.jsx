@@ -226,7 +226,7 @@ const Home = () => {
            
 
 <p>
-  For CONTACT us please click the link :🔗{" "}
+  For Reviews please click :🔗{" "}
   <Link 
     to="/contact" 
     style={{
@@ -235,7 +235,7 @@ const Home = () => {
       fontWeight: '500'
     }}
   >
-    Contact
+    Review
   </Link>
 </p>
 

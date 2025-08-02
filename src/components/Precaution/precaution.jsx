@@ -247,7 +247,7 @@ const Precaution = () => {
         <footer className={styles.footer}>
           
           <p>
-  For CONTACT us please click the link :🔗{" "}
+  For Reviews please click :🔗{" "}
   <Link 
     to="/contact" 
     style={{
@@ -256,7 +256,7 @@ const Precaution = () => {
       fontWeight: '500'
     }}
   >
-    Contact
+    Review
   </Link>
 </p>
 <p>© 2024 Predica. All rights reserved.</p>
