@@ -239,7 +239,7 @@ const Home = () => {
   </Link>
 </p>
 
-<p>© 2024 Predica. All rights reserved.</p>
+<p>© 2025 Predica. All rights reserved.</p>
   
         </footer>
       </div>
